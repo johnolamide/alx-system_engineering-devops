@@ -10,4 +10,6 @@
 
 5-listfilesdigitonly : Display current directory contents
 
+6-firstdirectory : Creates a directory in /tmp
+
 
