@@ -18,4 +18,6 @@
 
 9-firstdirdeletion : Delete the directory my_first_directory
 
+10-back: Changes the working directory to the previous directory
+
 
