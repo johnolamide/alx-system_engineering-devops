@@ -30,4 +30,6 @@
 
 100-lets_move : Create a script that moves all files beginning with uppercase letters
 
+101-clean_emacs : Deletes all files in the current working directory that ends with ~
+
 
