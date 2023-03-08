@@ -8,4 +8,6 @@
 
 4-listmorefile : Displays current directory contents including hidden files
 
+5-listfilesdigitonly : Display current directory contents
+
 
