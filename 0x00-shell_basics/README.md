@@ -34,6 +34,6 @@
 
 102-tree : Creates a directory tree
 
-103-commas : listss all the files and directories separated by commas
+103-commas : lists all the files and directories separated by commas
 
-
+school.mgc : create a magic file to detect school datafiles 
