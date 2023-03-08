@@ -22,4 +22,6 @@
 
 11-lists : Lists all files including hidden files in the current directory, parent of working directory and /boot
 
+12-file_type : Prints the type of the file named iamafile and creates the file beforehand
+
 
