@@ -32,4 +32,6 @@
 
 101-clean_emacs : Deletes all files in the current working directory that ends with ~
 
+102-tree : Creates a directory tree
+
 
