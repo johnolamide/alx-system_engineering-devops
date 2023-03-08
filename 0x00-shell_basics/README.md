@@ -12,4 +12,6 @@
 
 6-firstdirectory : Creates a directory in /tmp
 
+7-movethatfile : Move a file from /tmp to /tmp/my_first_directory
+
 
