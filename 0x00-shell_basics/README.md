@@ -24,4 +24,6 @@
 
 12-file_type : Prints the type of the file named iamafile and creates the file beforehand
 
+13-symbolic_link : Create a symbolic link to /bin/ls named __ls__
+
 
