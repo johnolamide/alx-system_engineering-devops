@@ -16,4 +16,6 @@
 
 8-firstdelete : Delete the file 
 
+9-firstdirdeletion : Delete the directory my_first_directory
+
 
