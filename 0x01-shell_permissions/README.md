@@ -10,4 +10,6 @@
 
 5-exceute : adds execute permissions to the owner of the file hello
 
+6-multiple_permissions : adds execute permissions to the owner and the group owner and read permission to other users
+
 
