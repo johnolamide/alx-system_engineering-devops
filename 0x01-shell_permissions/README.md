@@ -28,4 +28,6 @@
 
 100-change_owner_and_group : change the owner to vincent and group owner to staff
 
+101-symbolic_link_permissions : change owner and group owner of a symbolic link
+
 
