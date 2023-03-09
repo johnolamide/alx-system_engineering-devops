@@ -18,4 +18,6 @@
 
 9-John_Doe : set a custom modefo file hello
 
+10-mirror_permissions : set the mode of file hello the same as olleh
+
 
