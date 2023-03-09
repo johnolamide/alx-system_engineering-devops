@@ -20,4 +20,6 @@
 
 10-mirror_permissions : set the mode of file hello the same as olleh
 
+11-directories_permissions : adds execute permissions to all subdirectories of the current directory of the owner, group and all other users
+
 
