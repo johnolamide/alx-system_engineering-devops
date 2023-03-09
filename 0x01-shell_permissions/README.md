@@ -4,4 +4,6 @@
 
 2-groups : prints all the groups the current user is part of
 
+3-new_owner : changes the ownerr of the file hello to betty
+
 
