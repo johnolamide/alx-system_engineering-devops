@@ -16,4 +16,6 @@
 
 8-James_Bond : set Owner; no permission, Group; no permission, Other users; all permissions
 
+9-John_Doe : set a custom modefo file hello
+
 
