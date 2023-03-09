@@ -12,4 +12,6 @@
 
 6-multiple_permissions : adds execute permissions to the owner and the group owner and read permission to other users
 
+7-everybody : adds execution permission to the owner , group and other users
+
 
