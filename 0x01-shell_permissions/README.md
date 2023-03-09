@@ -14,4 +14,6 @@
 
 7-everybody : adds execution permission to the owner , group and other users
 
+8-James_Bond : set Owner; no permission, Group; no permission, Other users; all permissions
+
 
