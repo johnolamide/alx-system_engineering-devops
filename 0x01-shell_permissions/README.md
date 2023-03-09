@@ -8,4 +8,6 @@
 
 4-empty : Creates an empty file called empty
 
+5-exceute : adds execute permissions to the owner of the file hello
+
 
