@@ -12,4 +12,6 @@
 
 6-third_line : displays thee third line of the file iacta
 
+7-file : creates a file named exactly "\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)"
+
 
