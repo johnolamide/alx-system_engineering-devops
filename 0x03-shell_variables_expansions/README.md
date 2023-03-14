@@ -6,4 +6,6 @@
 
 3-paths : counts number of directories in the PATH 
 
+4-global_variables : lists environment variables
+
 
