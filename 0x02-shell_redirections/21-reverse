@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -r <&0
+rev <&0
