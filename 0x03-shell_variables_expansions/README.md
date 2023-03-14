@@ -26,4 +26,6 @@
 
 13-print_float : prints a number with two decimal places
 
+100-decimal_to_hexadecimal : converts number from base 10 to base 16
+
 
