@@ -40,4 +40,6 @@
 
 20-hiago : create a script that removes all letters c and C from input
 
+21-reverse : reverses its input
+
 
