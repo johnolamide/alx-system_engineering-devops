@@ -48,7 +48,7 @@
 > - Where only the part of the name after the first dash is displayed 
 
 ## Task 9
-- [ ] `9-to_file_or_not_to_file`
+- [x] `9-to_file_or_not_to_file`
 > Write a Bash script that gives you information about the school file.
 > Requirements:
 > You must use if and, else (case is forbidden)
