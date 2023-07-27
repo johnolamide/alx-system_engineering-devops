@@ -9,7 +9,7 @@
 > Write a Bash script that displays `Best School` 10 times
 
 ## Task 2
-- [ ] `2-while_best_school`
+- [x] `2-while_best_school`
 > Write a Bash script that displays `Best School` 10 times
 
 ## Task 3
