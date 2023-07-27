@@ -13,7 +13,7 @@
 > Write a Bash script that displays `Best School` 10 times
 
 ## Task 3
-- [ ] `3-until_best_school`
+- [x] `3-until_best_school`
 > Write a Bash script that displays `Best School` 10 times
 
 ## Task 4
