@@ -35,7 +35,7 @@
 > - displays `17` and then `bad luck from Italy` for the 17th loop iteration
 
 ## Task 7
-- [ ] `7-clock`
+- [x] `7-clock`
 > Write a Bash script that displays the time for 12 hours and 59 minutes:
 > - display hours from 0 to 12
 > - display minutes from 1 to 59
