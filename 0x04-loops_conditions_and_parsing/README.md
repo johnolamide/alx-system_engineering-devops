@@ -1,11 +1,11 @@
 # 0x04 Loop, Conditions and Parsing
 
 ## Task 0
-- [ ] `0-RSA_public_key.pub`
+- [x] `0-RSA_public_key.pub`
 > Create a SSH RSA key pair
 
 ## Task 1
-- [ ] `1-for_best_school`
+- [x] `1-for_best_school`
 > Write a Bash script that displays `Best School` 10 times
 
 ## Task 2
