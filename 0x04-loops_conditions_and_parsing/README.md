@@ -62,7 +62,7 @@
 > - if the file is not a regular file: (nothing)
 
 ## Task 10
-- [ ] `10-fizzbuzz`
+- [x] `10-fizzbuzz`
 > Write a Bash script that displays numbers from 1 to 100.
 > Requirements:
 > - Displays FizzBuzz when the number is a multiple of 3 and 5
