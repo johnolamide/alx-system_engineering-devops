@@ -41,7 +41,7 @@
 > - display minutes from 1 to 59
 
 ## Task 8
-- [ ] `8-for_is`
+- [x] `8-for_ls`
 > Write a Bash script that displays:
 > -The content of the current directory
 > - In a list format

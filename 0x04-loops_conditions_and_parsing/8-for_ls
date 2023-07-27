@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# display the contents of current directory in a list format
+for dir in *
+do
+    echo "${dir}" | cut -d'-' -f2-
+done
