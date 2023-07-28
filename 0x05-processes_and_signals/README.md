@@ -1,7 +1,7 @@
 # 0x05-Processes and Signals
 
 ## Task 0
-- [ ] `0-what-is-my-pid`
+- [x] `0-what-is-my-pid`
 > Write a Bash script that displays its own PID
 
 ## Task 1
