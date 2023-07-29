@@ -9,7 +9,7 @@
 > Write a Bash script that displays a list of currently running processes
 
 ## Task 2
-- [ ] `2-show_your_bash_pid`
+- [x] `2-show_your_bash_pid`
 > Write a Bash script that displays lines containing the bash word, thus allowing you to easily get the PID of your Bash process
 
 ## Task 3
