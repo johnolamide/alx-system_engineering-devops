@@ -25,7 +25,7 @@
 > Write a Bash script that stops `4-to_infinity_and_beyond` process
 
 ## Task 6
-- [ ] `6-stop_me_if_you_can`
+- [x] `6-stop_me_if_you_can`
 > Write a Bash script that stops `4-to_infinity_and_beyond` process
 
 ## Task 7
