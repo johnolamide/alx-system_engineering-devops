@@ -37,5 +37,5 @@
 > - I am invincible!!! when receiving a SIGTERM signal
 
 ## Task 8
-- [ ] `8-beheaded_process`
+- [x] `8-beheaded_process`
 > Write a Bash script that kills the process `7-highlander`
