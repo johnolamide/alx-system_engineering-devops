@@ -21,7 +21,7 @@
 > Write a Bash script that displays `To infinity and beyond` indefinitely
 
 ## Task 5
-- [ ] `5-dont_stop_me_now`
+- [x] `5-dont_stop_me_now`
 > Write a Bash script that stops `4-to_infinity_and_beyond` process
 
 ## Task 6
