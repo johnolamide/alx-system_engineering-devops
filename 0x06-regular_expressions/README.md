@@ -22,5 +22,5 @@
 - [x] `6-phone_number.rb`
 
 ## Task 7
-- [ ] `7-OMG_WHY_ARE_YOU_SHOUTING`
+- [x] `7-OMG_WHY_ARE_YOU_SHOUTING`
 
