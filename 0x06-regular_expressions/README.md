@@ -16,7 +16,7 @@
 - [x] `4-repetition_token_3.rb`
 
 ## Task 5
-- [ ] `5-beginning_and_end.rb`
+- [x] `5-beginning_and_end.rb`
 
 ## Task 6
 - [ ] `6-phone_number.rb`
