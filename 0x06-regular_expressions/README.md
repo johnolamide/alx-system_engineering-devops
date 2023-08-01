@@ -1,7 +1,7 @@
 # 0x06-Regular Expression
 
 ## Task 0
-- [ ] `0-simply_match_school.rb`
+- [x] `0-simply_match_school.rb`
 
 ## Task 1
 - [ ] `1-repetition_token_0.rb`
