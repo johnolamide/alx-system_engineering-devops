@@ -10,7 +10,7 @@
 - [x] `2-repetition_token_1.rb`
 
 ## Task 3
-- [ ] `3-repetition_token_2.rb`
+- [x] `3-repetition_token_2.rb`
 
 ## Task 4
 - [ ] `4-repetition_token_3.rb`
