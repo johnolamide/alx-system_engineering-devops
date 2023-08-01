@@ -19,7 +19,7 @@
 - [x] `5-beginning_and_end.rb`
 
 ## Task 6
-- [ ] `6-phone_number.rb`
+- [x] `6-phone_number.rb`
 
 ## Task 7
 - [ ] `7-OMG_WHY_ARE_YOU_SHOUTING`
