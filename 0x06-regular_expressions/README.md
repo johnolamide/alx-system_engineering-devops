@@ -13,7 +13,7 @@
 - [x] `3-repetition_token_2.rb`
 
 ## Task 4
-- [ ] `4-repetition_token_3.rb`
+- [x] `4-repetition_token_3.rb`
 
 ## Task 5
 - [ ] `5-beginning_and_end.rb`
