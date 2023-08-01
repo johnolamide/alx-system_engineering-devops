@@ -4,7 +4,7 @@
 - [x] `0-simply_match_school.rb`
 
 ## Task 1
-- [ ] `1-repetition_token_0.rb`
+- [x] `1-repetition_token_0.rb`
 
 ## Task 2
 - [ ] `2-repetition_token_1.rb`
