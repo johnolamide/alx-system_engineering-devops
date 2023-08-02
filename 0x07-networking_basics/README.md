@@ -4,7 +4,7 @@
 - [x] `0-OSI_model`
 
 ## Task 1
-- [ ] `1-types_of_network`
+- [x] `1-types_of_network`
 
 ## Task 2
 - [ ] `2-MAC_and_IP_address`
