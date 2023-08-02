@@ -10,7 +10,7 @@
 - [x] `2-MAC_and_IP_address`
 
 ## Task 3
-- [ ] `3-UDP_and_TCP`
+- [x] `3-UDP_and_TCP`
 
 ## Task 4
 - [ ] `4-TCP_and_UDP_ports`
