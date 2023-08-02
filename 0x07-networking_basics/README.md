@@ -13,7 +13,7 @@
 - [x] `3-UDP_and_TCP`
 
 ## Task 4
-- [ ] `4-TCP_and_UDP_ports`
+- [x] `4-TCP_and_UDP_ports`
 
 ## Task 5
-- [ ] `5-is_the_host_on_the_network`
+- [x] `5-is_the_host_on_the_network`
