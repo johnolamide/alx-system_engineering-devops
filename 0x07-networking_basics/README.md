@@ -7,7 +7,7 @@
 - [x] `1-types_of_network`
 
 ## Task 2
-- [ ] `2-MAC_and_IP_address`
+- [x] `2-MAC_and_IP_address`
 
 ## Task 3
 - [ ] `3-UDP_and_TCP`
