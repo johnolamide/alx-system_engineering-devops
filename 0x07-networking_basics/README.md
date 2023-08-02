@@ -1,7 +1,7 @@
 # 0x07-Networking Basics 0
 
 ## Task 0
-- [ ] `0-OSI_model`
+- [x] `0-OSI_model`
 
 ## Task 1
 - [ ] `1-types_of_network`
