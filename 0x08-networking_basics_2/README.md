@@ -8,5 +8,5 @@
 > - facebook.com resolves to 8.8.8.8
 
 ## Task 1
-- [ ] `1-chow_attached_IPs`
+- [x] `1-chow_attached_IPs`
 > Write a Bash script that displays all active IPv4 IPs on the machine it's executed on
