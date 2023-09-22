@@ -7,4 +7,4 @@
 - [x] `1-install_a_package.pp`
 
 ## Task 2
-- [ ] `2-execute_a_command.pp`
+- [x] `2-execute_a_command.pp`
