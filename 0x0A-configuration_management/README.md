@@ -1,7 +1,7 @@
 # 0x0A Configuration Management
 
 ## Task 0
-- [ ] `0-create_a_file.pp`
+- [x] `0-create_a_file.pp`
 
 ## Task 1
 - [ ] `1-install_a_package.pp`
