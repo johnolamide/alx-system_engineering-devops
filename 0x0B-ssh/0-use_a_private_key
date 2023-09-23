@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 SERVER_IP="54.210.42.244"
-PRIVATE_KEY="~/.ssh/school/id_rsa_alx"
+PRIVATE_KEY="~/.ssh/school"
 USERNAME="ubuntu"
 
 ssh -i $PRIVATE_KEY $USERNAME@$SERVER_IP
