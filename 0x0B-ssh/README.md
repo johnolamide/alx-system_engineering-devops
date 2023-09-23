@@ -7,4 +7,4 @@
 - [x] `1-create_ssh_key_pair`
 
 ## Task 2
-- [ ] `2-ssh_config`
+- [x] `2-ssh_config`
