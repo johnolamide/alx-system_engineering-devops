@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
 SERVER="356138-web-01"
+PRIVATE_KEY="~/.ssh/school"
+USERNAME="ubuntu"
 
-ssh -i ~/.ssh/school ubuntu@$SERVER
+ssh -i $PRIVATE_KEY $USERNAME@$SERVER
