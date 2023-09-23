@@ -1,7 +1,7 @@
 # 0x0B SSH
 
 ## Task 0
-- [ ] `0-use_a_private_key`
+- [x] `0-use_a_private_key`
 
 ## Task 1
 - [ ] `1-create_ssh_key_pair`
