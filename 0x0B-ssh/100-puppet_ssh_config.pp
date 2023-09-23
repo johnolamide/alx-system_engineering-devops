@@ -1,6 +1,6 @@
 # This Puppet manifest configures ssh configuration file
 
-file { '~/.ssh/config',
+file { '~/.ssh/config':
   ensure  => file,
   owner   => 'ubuntu',
   group   => 'ubuntu',
@@ -11,3 +11,4 @@ file { '~/.ssh/config',
       PasswordAuthentication no
   ",
 }
+
