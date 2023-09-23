@@ -1,7 +1,2 @@
 #!/usr/bin/env bash
-
-SERVER_IP="54.210.42.244"
-PRIVATE_KEY="~/.ssh/school"
-USERNAME="ubuntu"
-
-ssh $USERNAME@$SERVER_IP
+ssh -i ~/.ssh/school ubuntu@54.210.42.244

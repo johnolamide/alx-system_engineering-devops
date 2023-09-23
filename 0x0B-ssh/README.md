@@ -4,7 +4,7 @@
 - [x] `0-use_a_private_key`
 
 ## Task 1
-- [ ] `1-create_ssh_key_pair`
+- [x] `1-create_ssh_key_pair`
 
 ## Task 2
 - [ ] `2-ssh_config`
