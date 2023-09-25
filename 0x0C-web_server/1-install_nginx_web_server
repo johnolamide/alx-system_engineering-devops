@@ -7,18 +7,15 @@ apt-get install -y nginx
 service nginx restart
 systemctl enable nginx
 
-#echo "Hello World!" | sudo tee /var/www/html/index.html
+echo "Hello World!" | sudo tee /var/www/html/index.html
 
 echo "
 server {
     listen 80;
-    listen [::]:80;
-
-    server_name _;
 
     location / {
-        return 200 'Hello World!';
-        add_header Content-Type text/plain;
+        root /var/www/html
+        index index.html;
     }
 }" > /etc/nginx/sites-available/default
 
