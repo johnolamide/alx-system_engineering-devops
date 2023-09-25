@@ -16,11 +16,9 @@ server {
 
     server_name _;
 
-    root /var/www/html;
-    index index.html index.nginx-debian.html;
-
     location / {
-        try_files $uri/ =404;
+        root /var/www/html;
+        index index.html;
     }
 }" | sudo tee /etc/nginx/sites-available/default
 
