@@ -1,7 +1,7 @@
 # 0x0C Web Server
 
 ## Task 0
-- [ ] `0-transfer_file`
+- [x] `0-transfer_file`
 > write a bash script that transfers a file from client to server
 
 ## Task 1
