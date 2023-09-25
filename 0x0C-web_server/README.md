@@ -5,7 +5,7 @@
 > write a bash script that transfers a file from client to server
 
 ## Task 1
-- [ ] `1-install_nginx_web_server`
+- [x] `1-install_nginx_web_server`
 > install nginx on your server
 
 ## Task 2
