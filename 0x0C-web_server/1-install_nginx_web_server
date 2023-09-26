@@ -7,14 +7,12 @@ apt-get install -y nginx
 service nginx restart
 systemctl enable nginx
 
-ufw enable
-ufw allow 'Nginx HTTP'
-
 echo "Hello World!" | sudo tee /var/www/html/index.html
 
 echo "
 server {
-    listen 80;
+    listen 80 default_server;
+    listen [::]:80 default_server;
 
     location / {
         root /var/www/html
