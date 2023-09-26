@@ -9,7 +9,7 @@
 > install nginx on your server
 
 ## Task 2
-- [ ] `2-setup_a_domain_name`
+- [x] `2-setup_a_domain_name`
 > setup a domain name with `.TECH Domains`
 
 ## Task 3
