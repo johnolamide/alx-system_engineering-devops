@@ -17,5 +17,5 @@
 > Configure the Nginx server redirection
 
 ## Task 4
-- [ ] `4-not_found_page_404`
+- [x] `4-not_found_page_404`
 > Configure your Nginx server to have a custom 404 page
