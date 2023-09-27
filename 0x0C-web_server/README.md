@@ -13,7 +13,7 @@
 > setup a domain name with `.TECH Domains`
 
 ## Task 3
-- [ ] `3-redirection`
+- [x] `3-redirection`
 > Configure the Nginx server redirection
 
 ## Task 4
