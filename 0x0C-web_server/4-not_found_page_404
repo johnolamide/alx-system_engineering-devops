@@ -8,6 +8,7 @@ systemctl enable nginx
 
 echo "Hello World!                 " > /var/www/html/index.html
 echo "Ceci n'est pas une page" > /var/www/html/error_404.html
+echo "
 server {
     listen 80 default_server;
     listen [::]:80 default_server;
