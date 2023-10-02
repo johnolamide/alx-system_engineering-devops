@@ -33,6 +33,7 @@ backend servers
     balance roundrobin
     server web-01 54.210.42.244:80 check
     server web-02 54.160.120.100:80 check
+    http-response add-header Connection keep-alive
 " > /etc/haproxy/haproxy.cfg
 
 service haproxy restart
