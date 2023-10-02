@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+# this script installs and configure HAproxy on a load balancer server
+
+apt update
+apt install haproxy -y
+
+echo "
+global
+    log /dev/log local0
+    log /dev/log local1 notice
+    chroot /var/lib/haproxy
+    stats socket /run/haproxy/admin.sock mode 660 level admin
+    stats timeout 30s
+    user haproxy
+    group haproxy
+    daemon
+
+defaults
+    log global
+    mode http
+    option httplog
+    option dontlognull
+    timeout connect 5000
+    timeout client 50000
+    timeout server 50000
+
+frontend http
+    bind *:80
+    default_backend servers
+
+backend servers
+    balance roundrobin
+    server web-01 54.210.42.244:80 check
+    server web-02 54.160.120.100:80 check
+" > /etc/haproxy/haproxy.cfg
+
+systemctl restart haproxy

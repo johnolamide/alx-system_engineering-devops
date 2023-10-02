@@ -5,5 +5,5 @@
 > configure Nginx server
 
 ## Task 1
-- [ ] `1-install_load_balancer`
+- [x] `1-install_load_balancer`
 > install and configure HAproxy on the server
