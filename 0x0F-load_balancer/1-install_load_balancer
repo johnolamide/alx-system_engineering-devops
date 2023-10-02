@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # this script installs and configure HAproxy on a load balancer server
 
-apt-get install --no-install-recommends software-properties-common
+apt-get install -y --no-install-recommends software-properties-common
 add-apt-repository ppa:vbernat/haproxy-2.8
 apt update
 apt install -y haproxy=2.8.\*
