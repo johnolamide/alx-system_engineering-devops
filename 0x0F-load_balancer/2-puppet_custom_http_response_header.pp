@@ -36,4 +36,3 @@ file { '/etc/nginx/sites-available/default':
     ',
     notify  => Service['nginx'],
 }
-
