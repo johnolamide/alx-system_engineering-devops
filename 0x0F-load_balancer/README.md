@@ -1,7 +1,7 @@
 # 0x0F Load Balancer
 
 ## Task 0
-- [ ] `0-custom_http_response_header`
+- [x] `0-custom_http_response_header`
 > configure Nginx server
 
 ## Task 1
