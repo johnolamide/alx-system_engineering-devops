@@ -19,8 +19,6 @@ defaults
     log global
     mode http
     no option http-use-htx
-    option h1-case-adjust-bogus-server
-    option h1-case-adjust
     option httplog
     option dontlognull
     timeout connect 5000
@@ -37,4 +35,4 @@ backend servers
     server web-02 54.160.120.100:80 check
 " > /etc/haproxy/haproxy.cfg
 
-systemctl restart haproxy
+service haproxy restart
