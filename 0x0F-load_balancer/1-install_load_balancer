@@ -18,6 +18,9 @@ global
 defaults
     log global
     mode http
+    no option http-use-htx
+    option h1-case-adjust-bogus-server
+    option h1-case-adjust
     option httplog
     option dontlognull
     timeout connect 5000
