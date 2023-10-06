@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+# this script displays information about subdomains
+
+# function to audit a subdomain
+audit_subdomain() {
+    local domain="$1"
+    local subdomain="$2"
+    local record_type
+    local destination
+
+    # query domain records for the specified domain and subdomain
+    if [ -z "$subdomain" ]; then
+        subdomains=("www" "lb-01" "web-01" "web-02")
+    else
+        subdomains=("$subdomain")
+    fi
+
+    for sub in "${subdomains[@]}"; do
+        output=$(nslookup "$sub.$domain" | awk '
+            /^Address: / { print $2 }
+        ')
+
+        if [ -n "$output" ]; then
+            echo "The subdomain $sub is a A record and points to $output"
+        fi
+
+    done
+}
+
+# check if the correct number of arguments is provided
+if [ "$#" -lt 1 ]; then
+    echo "Usage: $0 domain [subdomain]"
+    exit 1
+fi
+
+# extract domain and subdomain from arguments
+domain="$1"
+subdomain="$2"
+
+audit_subdomain "$domain" "$subdomain"
