@@ -4,4 +4,4 @@
 - [x] `0-world_wide_web`
 
 ## Task 1
-- [ ] `1-haproxy_ssl_termination`
+- [x] `1-haproxy_ssl_termination`
