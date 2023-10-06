@@ -1,0 +1,36 @@
+global
+    maxconn 4096
+    ssl-server-verify none
+    h1-case-adjust server Server
+    h1-case-adjust date Date
+    h1-case-adjust content-type Content-Type
+    h1-case-adjust content-length Content-Length
+    h1-case-adjust last-modified Last-Modified
+    h1-case-adjust connection Connection
+    h1-case-adjust etag ETag
+    h1-case-adjust x-served-by X-Served-By
+    h1-case-adjust accept-ranges Accept-Ranges
+
+defaults
+    mode http
+    timeout connect 5000ms
+    timeout server 50000ms
+    timeout client 50000ms
+
+option http-keep-alive
+
+frontend www-http
+    bind *:80
+    default_backend web-servers
+    option h1-case-adjust-bogus-client
+
+frontend www-https
+    bind *:443 ssl crt /etc/haproxy.pem
+    default_backend web-servers
+    option h1-case-adjust-bogus-client
+
+backend web-servers
+    balance roundrobin
+    server web-01 54.210.42.244:80 check
+    server web-02 54.160.120.100:80 check
+    option h1-case-adjust-bogus-server
