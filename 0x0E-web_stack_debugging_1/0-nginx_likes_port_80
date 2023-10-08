@@ -3,7 +3,5 @@
 apt install -y lsof
 kill -QUIT "$(lsof -i -P -n | grep LISTEN | grep nginx | awk '{print $2}' | head -n 1)"
 service nginx start
-#awk '{gsub("8080","80")}1' /etc/nginx/sites-enabled/default > temp \
-#&& mv temp /etc/nginx/sites-enabled/default
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-service nginx restart
+service nginx reload
