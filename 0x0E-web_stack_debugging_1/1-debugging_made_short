@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # this script debugs an nginx server
-awk '{gsub("8080","80")}1' /etc/nginx/sites-enabled/default > temp \
-&& mv temp /etc/nginx/sites-enabled/default
+ufw allow 80
+awk '{gsub("8080","80")}1' /etc/nginx/sites-enabled/default > temp && mv temp /etc/nginx/sites-enabled/default
 service nginx restart
