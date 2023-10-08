@@ -3,4 +3,4 @@
 nginx -s stop
 awk '{gsub("8080","80")}1' /etc/nginx/sites-enabled/default > temp \
 && mv temp /etc/nginx/sites-enabled/default
-service nginx restart
+service nginx start
