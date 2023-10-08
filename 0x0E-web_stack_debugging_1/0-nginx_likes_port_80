@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # this script fixes an nginx installation
 
+apt purge -y nginx
 apt install -y nginx
 nginx -s stop
 service nginx start
