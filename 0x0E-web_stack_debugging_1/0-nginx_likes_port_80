@@ -2,4 +2,5 @@
 # this script fixes an nginx installation
 
 apt install -y nginx
+nginx -s stop
 service nginx start
