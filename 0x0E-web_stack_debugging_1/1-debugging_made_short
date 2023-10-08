@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # this script debugs an nginx server
 
-apt install -y nginx
 nginx -s stop
 service nginx start
