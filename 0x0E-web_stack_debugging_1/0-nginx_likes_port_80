@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # this script fixes an nginx installation
-nginx -s stop
+apt install -y lsof
+sudo kill -QUIT $(lsof -i -P -n | grep LISTEN | grep nginx | awk '{print $2}')
+service nginx start
 awk '{gsub("8080","80")}1' /etc/nginx/sites-enabled/default > temp \
 && mv temp /etc/nginx/sites-enabled/default
-service nginx start
+service nginx restart
