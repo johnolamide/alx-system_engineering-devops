@@ -3,5 +3,7 @@
 
 apt purge -y nginx
 apt install -y nginx
+ufw allow http
+ufw allow 80/tcp
 nginx -s stop
 service nginx start
