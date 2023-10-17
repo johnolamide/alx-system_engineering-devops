@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Check if password is supplied
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 <password>"
+    exit 1
+fi
+
+# MySQL user credentials
+USER='root'
+PASSWORD=$1
+
+# File names
+BACKUP="backup.sql"
+ARCHIVE=$(date +%d-%m-%Y).tar.gz
+
+# Dump all databases
+mysqldump -u $USER -p$PASSWORD --all-databases > $BACKUP
+
+# Create a compressed archive
+tar -czvf $ARCHIVE $BACKUP
+
+# Remove the SQL dump file
+rm $BACKUP
+
+echo "MySQL dump created and archived as $ARCHIVE"

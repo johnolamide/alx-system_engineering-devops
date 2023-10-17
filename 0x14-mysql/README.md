@@ -21,5 +21,5 @@
 > setup replication
 
 ## Task 5
-- [ ] `5-mysql_backup`
+- [x] `5-mysql_backup`
 > create a backup
