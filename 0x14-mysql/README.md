@@ -1,7 +1,7 @@
 # 0x14 MySQL
 
 ## Task 0
-- [ ]
+- [x]
 > Install MySQL on both web-01 and web-02
 
 ## Task 1
