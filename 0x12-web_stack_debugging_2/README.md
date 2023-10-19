@@ -4,4 +4,4 @@
 - [x] `0-iamsomeoneelse`
 
 ## Task 1
-- [ ] `1-run_nginx_as_nginx`
+- [x] `1-run_nginx_as_nginx`

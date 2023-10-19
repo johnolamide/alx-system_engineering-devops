@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Fixes Nginx user issue
+
+sudo su
+
+service nginx stop
+
+sed -i 's/user root;/user nginx;/'
+/etc/nginx/nginx.conf
+sed -i 's/listen 80;/listen 8080;/' /etc/nginx/sites-enabled/default
+
+service nginx start
