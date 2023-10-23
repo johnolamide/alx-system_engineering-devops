@@ -1,7 +1,7 @@
 # 0x15 API
 
 ## Task 0
-- [ ] `0-gather_data_from_an_API.py`
+- [x] `0-gather_data_from_an_API.py`
 
 ## Task 1
 - [ ] `1-export_to_CSV.py`
