@@ -10,4 +10,4 @@
 - [x] `2-export_to_JSON.py`
 
 ## Task 3
-- [ ] `3-dictionary_of_list_of_dictionaries.py`
+- [x] `3-dictionary_of_list_of_dictionaries.py`
