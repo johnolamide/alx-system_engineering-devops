@@ -23,7 +23,7 @@ def get_user_todo(user_id):
     number_of_done_tasks = len(done_tasks)
 
     result = f"({number_of_done_tasks}/{total_tasks})"
-    first_line = f"Employee {employee_name} is done with task {result}:"
+    first_line = f"Employee {employee_name} is done with tasks{result}:"
     print(first_line)
 
     for task in done_tasks:
