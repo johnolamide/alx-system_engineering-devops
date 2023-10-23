@@ -7,12 +7,15 @@ import sys
 
 def get_user_todo(user_id):
     """ gets TODO list progress for a given employee ID
+        Args:
+            user_id (int): employee id
     """
-    employee_url = f'https://jsonplaceholder.typicode.com/users/{user_id}'
+    url = 'https://jsonplaceholder.typicode.com/users/'
+    employee_url = url + str(user_id)
     employee_response = requests.get(employee_url)
     employee_name = employee_response.json()['name']
 
-    todo_url = f'https://jsonplaceholder.typicode.com/users/{user_id}/todos'
+    todo_url = employee_url + '/todos'
     todos_response = requests.get(todo_url)
     todos = todos_response.json()
     total_tasks = len(todos)
@@ -24,7 +27,7 @@ def get_user_todo(user_id):
     print(first_line)
 
     for task in done_tasks:
-        print(f'\t{task["title"]}')
+        print(f'\t {task["title"]}')
 
 
 if __name__ == "__main__":
