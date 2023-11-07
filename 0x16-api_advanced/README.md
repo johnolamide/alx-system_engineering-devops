@@ -7,4 +7,4 @@
 - [x] `1-top_ten.py`
 
 ## Task 2
-- [ ] `2-recurse.py`
+- [x] `2-recurse.py`
