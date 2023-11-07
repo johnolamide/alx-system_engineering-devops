@@ -2,7 +2,6 @@
 """ This script contains a function that queries the Reddit API
 """
 import requests
-import sys
 
 
 def number_of_subscribers(subreddit):
