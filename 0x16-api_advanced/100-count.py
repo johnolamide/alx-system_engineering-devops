@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""
+""" This script queries the Reddit API
 """
 import requests
 import re
@@ -7,6 +7,14 @@ from collections import Counter
 
 
 def count_words(subreddit, word_list, after=None, word_counter=None):
+    """
+        prints a sorted count of given keywords
+        Args:
+            subreddit (str)
+            word_list (list)
+            after
+            word_counter
+    """
     if word_counter is None:
         word_counter = Counter()
 
