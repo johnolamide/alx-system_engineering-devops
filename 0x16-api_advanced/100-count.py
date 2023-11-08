@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """ This script queries the Reddit API
 """
-import requests
-import re
 from collections import Counter
+import re
+import requests
 
 
 def count_words(subreddit, word_list, after=None, word_counter=None):
