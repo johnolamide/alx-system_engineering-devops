@@ -4,7 +4,7 @@
 - [x] `2-app_server-nginx_config`
 
 ## Task 3
-- [ ] `3-app_server-nginx_config`
+- [x] `3-app_server-nginx_config`
 
 ## Task 4
 - [ ] `4-app_server-nginx_config`
